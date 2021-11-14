@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Home from "./screens/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+            <Routes>
+                <Route path="/">
+                    <Route index element={<Home />} />
+                    <Route path="*" element={<NoMatch />} />
+                </Route>
+            </Routes>
+    );
 }
 
-export default App;
+function NoMatch() {
+    return (
+        <div>
+            <h2>No hay nada aquí</h2>
+            <p>
+                <Link to="/">Volver al Inicio</Link>
+            </p>
+        </div>
+    );
+}
