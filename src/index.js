@@ -3,8 +3,10 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
 import './assets/index.css';
+import "antd/dist/antd.css";
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
+import './util/traductor';
 
 ReactDOM.render(
     <React.StrictMode>

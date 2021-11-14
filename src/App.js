@@ -1,15 +1,17 @@
 import * as React from "react";
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import {Routes, Route, Link} from "react-router-dom";
 import Home from "./screens/Home";
 
 export default function App() {
+
+
     return (
-            <Routes>
-                <Route path="/">
-                    <Route index element={<Home />} />
-                    <Route path="*" element={<NoMatch />} />
-                </Route>
-            </Routes>
+        <Routes>
+            <Route path="/">
+                <Route index element={<Home/>}/>
+                <Route path="*" element={<NoMatch/>}/>
+            </Route>
+        </Routes>
     );
 }
 
