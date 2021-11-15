@@ -9,16 +9,17 @@ const PARAMTROS = {
 class PokemonsService {
 
     consultar() {
-        return api.get(PREFIJO,{
+        return api.get(PREFIJO, {
             params: PARAMTROS
         });
     }
 
     crear(formulario) {
         const data = {
-
+            ...PARAMTROS,
+            ...formulario,
         }
-        return api.post(PREFIJO, data,{
+        return api.post(PREFIJO, data, {
             params: PARAMTROS
         });
     }
@@ -28,17 +29,17 @@ class PokemonsService {
     }
 
     consultarNroReg(nrm) {
-        return api.get(`${PREFIJO}/${nrm}`,{
+        return api.get(`${PREFIJO}/${nrm}`, {
             params: PARAMTROS
         });
     }
 
-    actualizar(formulario) {
-        const id = formulario.id;
+    actualizar(formulario, id) {
         const data = {
-
+            ...PARAMTROS,
+            ...formulario,
         };
-        return api.put(`${PREFIJO}/${id}`,data);
+        return api.put(`${PREFIJO}/${id}`, data);
     }
 
     eliminar(formulario) {

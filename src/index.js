@@ -1,17 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 import './assets/index.css';
 import "antd/dist/antd.css";
+import "./assets/colors.less";
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
 import './util/traductor';
 
+import {ConfigProvider} from 'antd';
+import esEs from 'antd/lib/locale/es_ES';
+
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
-            <App />
+            <ConfigProvider locale={esEs}>
+                <App/>
+            </ConfigProvider>
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")

@@ -1,3 +1,35 @@
 {
-  "search": "Buscar"
+  "search": "Buscar",
+  "listado": "Listado de Pokemon",
+  "pokemons": {
+    "name": "Nombre",
+    "image": "Imagen",
+    "attack": "Ataque",
+    "defense": "Defensa",
+    "type": "Tipo",
+    "hp": "HP"
+  },
+  "tabla": {
+    "aciones": "Acciones",
+    "exito": "Éxito",
+    "confirmar": "Estas seguro que quieres eliminar a ",
+    "eliminado": " se ha eliminado correctamente",
+    "si": "Si",
+    "no": "No"
+  },
+  "form": {
+    "nuevo": "Nuevo",
+    "guardar": "Guardar",
+    "cancelar": "Cancelar",
+    "save": " se ha creado con éxito",
+    "edit": "Se ha guardado los cambios de ",
+    "place": {
+      "name": "Ingresa un Nombre",
+      "image": "http://lorem/imagen.png",
+      "attack": "Ingresa ataque",
+      "defense": "Ingresa Defensa",
+      "type": "Elige un tipo",
+      "hp": "Ingresa HP"
+    }
+  }
 }
