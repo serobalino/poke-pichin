@@ -3,8 +3,7 @@ import ReactDOM from "react-dom";
 import {BrowserRouter} from "react-router-dom";
 
 import './assets/index.css';
-import "antd/dist/antd.css";
-import "./assets/colors.less";
+import "antd/dist/antd.less";
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
 import './util/traductor';
