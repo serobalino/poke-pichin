@@ -3,7 +3,7 @@ import api from "./api";
 const PREFIJO = 'pokemons';
 
 const PARAMTROS = {
-    idAuthor: 1
+    idAuthor: 2
 }
 
 class PokemonsService {
