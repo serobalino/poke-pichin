@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {Avatar, Button, Image, notification, Popconfirm, Space, Table} from "antd";
+import {Button, Image, notification, Popconfirm, Space, Table} from "antd";
 import PropTypes from "prop-types";
 import {useTranslation} from "react-i18next";
 import {DeleteOutlined, EditOutlined} from "@ant-design/icons";
@@ -93,8 +93,10 @@ export default function Tabla(props) {
         </Space>
     )
 
+
     useEffect(() => {
         filtro();
+        // eslint-disable-next-line
     }, [textFiltrar, data])
 
     useEffect(() => {
@@ -108,6 +110,7 @@ export default function Tabla(props) {
                 setData(i => [...i, itemChange]);
             }
         }
+        // eslint-disable-next-line
     }, [itemChange])
 
     useEffect(() => {
@@ -134,6 +137,7 @@ export default function Tabla(props) {
             auxCol.push(obj);
         }
         setColumns(auxCol);
+        // eslint-disable-next-line
     }, [columnas, t])
 
     useEffect(() => {
@@ -141,6 +145,7 @@ export default function Tabla(props) {
         if (consulta) {
             consultaAjax();
         }
+        // eslint-disable-next-line
     }, [consulta])
 
     return (
