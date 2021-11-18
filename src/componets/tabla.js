@@ -82,14 +82,14 @@ export default function Tabla(props) {
 
     const imageColum = (item) => (
         <Space size="middle">
-            <Avatar size="small" src={
-                <Image
-                    src={item}
-                    style={{
-                        width: 40,
-                    }}
-                />
-            }/>
+            <Image
+                src={item}
+                fallback="https://www.analyticdesign.com/wp-content/uploads/2018/07/unnamed.gif"
+                style={{
+                    width: 30,
+                    height: 30
+                }}
+            />
         </Space>
     )
 

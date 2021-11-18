@@ -12,13 +12,11 @@ import {ConfigProvider} from 'antd';
 import esEs from 'antd/lib/locale/es_ES';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <BrowserRouter>
-            <ConfigProvider locale={esEs}>
-                <App/>
-            </ConfigProvider>
-        </BrowserRouter>
-    </React.StrictMode>,
+    <BrowserRouter>
+        <ConfigProvider locale={esEs}>
+            <App/>
+        </ConfigProvider>
+    </BrowserRouter>,
     document.getElementById("root")
 );
 
