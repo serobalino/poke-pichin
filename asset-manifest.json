@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./poke-pichin/static/css/main.d120866b.chunk.css",
-    "main.js": "./poke-pichin/static/js/main.05daa055.chunk.js",
-    "main.js.map": "./poke-pichin/static/js/main.05daa055.chunk.js.map",
-    "runtime-main.js": "./poke-pichin/static/js/runtime-main.1516c41a.js",
-    "runtime-main.js.map": "./poke-pichin/static/js/runtime-main.1516c41a.js.map",
-    "static/css/2.1cf9fb64.chunk.css": "./poke-pichin/static/css/2.1cf9fb64.chunk.css",
-    "static/js/2.6b3b36c8.chunk.js": "./poke-pichin/static/js/2.6b3b36c8.chunk.js",
-    "static/js/2.6b3b36c8.chunk.js.map": "./poke-pichin/static/js/2.6b3b36c8.chunk.js.map",
-    "static/js/3.330bde90.chunk.js": "./poke-pichin/static/js/3.330bde90.chunk.js",
-    "static/js/3.330bde90.chunk.js.map": "./poke-pichin/static/js/3.330bde90.chunk.js.map",
-    "index.html": "./poke-pichin/index.html",
-    "static/css/2.1cf9fb64.chunk.css.map": "./poke-pichin/static/css/2.1cf9fb64.chunk.css.map",
-    "static/css/main.d120866b.chunk.css.map": "./poke-pichin/static/css/main.d120866b.chunk.css.map",
-    "static/js/2.6b3b36c8.chunk.js.LICENSE.txt": "./poke-pichin/static/js/2.6b3b36c8.chunk.js.LICENSE.txt"
+    "main.css": "/poke-pichin/static/css/main.d120866b.chunk.css",
+    "main.js": "/poke-pichin/static/js/main.05daa055.chunk.js",
+    "main.js.map": "/poke-pichin/static/js/main.05daa055.chunk.js.map",
+    "runtime-main.js": "/poke-pichin/static/js/runtime-main.32a94776.js",
+    "runtime-main.js.map": "/poke-pichin/static/js/runtime-main.32a94776.js.map",
+    "static/css/2.1cf9fb64.chunk.css": "/poke-pichin/static/css/2.1cf9fb64.chunk.css",
+    "static/js/2.cacf4180.chunk.js": "/poke-pichin/static/js/2.cacf4180.chunk.js",
+    "static/js/2.cacf4180.chunk.js.map": "/poke-pichin/static/js/2.cacf4180.chunk.js.map",
+    "static/js/3.330bde90.chunk.js": "/poke-pichin/static/js/3.330bde90.chunk.js",
+    "static/js/3.330bde90.chunk.js.map": "/poke-pichin/static/js/3.330bde90.chunk.js.map",
+    "index.html": "/poke-pichin/index.html",
+    "static/css/2.1cf9fb64.chunk.css.map": "/poke-pichin/static/css/2.1cf9fb64.chunk.css.map",
+    "static/css/main.d120866b.chunk.css.map": "/poke-pichin/static/css/main.d120866b.chunk.css.map",
+    "static/js/2.cacf4180.chunk.js.LICENSE.txt": "/poke-pichin/static/js/2.cacf4180.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1516c41a.js",
+    "static/js/runtime-main.32a94776.js",
     "static/css/2.1cf9fb64.chunk.css",
-    "static/js/2.6b3b36c8.chunk.js",
+    "static/js/2.cacf4180.chunk.js",
     "static/css/main.d120866b.chunk.css",
     "static/js/main.05daa055.chunk.js"
   ]
