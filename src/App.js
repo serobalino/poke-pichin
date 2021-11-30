@@ -7,7 +7,7 @@ export default function App() {
 
     return (
         <Routes>
-            <Route path="/">
+            <Route path="/poke-pichin">
                 <Route index element={<Home/>}/>
                 <Route path="*" element={<NoMatch/>}/>
             </Route>
